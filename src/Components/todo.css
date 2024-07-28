@@ -1,0 +1,65 @@
+form{
+    width: 600px;
+    border: 1.5px solid black;
+    margin-left: 470px;
+    border-radius: 5px;
+    background-color: rgb(255, 239, 145);
+}
+body
+{
+    background-color: bisque;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.task-input 
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gold;
+    font-size: 20px;
+}
+.btn-add
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid gold;
+    font-size: 15px;
+    background-color: gold;
+    cursor: pointer;
+}
+.tasks
+{
+    margin-top: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-delete
+{
+    height: 30px;
+    width: 100px;
+    margin-left: 250px;
+    border: 1px solid gold;
+    font-size: 15px;
+    background-color: gold;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.completed
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
